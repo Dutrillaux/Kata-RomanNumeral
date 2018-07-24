@@ -1,26 +1,41 @@
-**Setup - Visual Studio 2017**
-- Open the Dotnet/Start (or Dotnet.Core/Start) directory
-- Open the solution RomanNumeralConsole.sln
-- Build the solution
-- Open the RomanNumeralConverterTest file 
-- Run the tests
+**Kata - Chiffres Romains**
 
-**Setup - IntelliJ**
-- Open the Java/Start directory
-- 
+Ce Kata a pour objectif de mettre en œuvre la pratique du TDD (Test Driven Development : développement piloté par les tests), 
+tout en implémentant une méthode qui convertit de chiffres arabes en nombres romains.
 
-**Setup - Visual Studio Code**
-- Open the Dotnet/Start (or Dotnet.Core/Start) directory
-- Open the solution RomanNumeralConsole.sln
-- Install suggested C# plugins
+Pour mémoire :
+- Test Driven Development : https://fr.wikipedia.org/wiki/Test_driven_development
+- Chiffres romains : https://fr.wikipedia.org/wiki/Num%C3%A9ration_romaine
+
+
+**Protocole**
  
+* Récupération le code source
+ 
+* Mise en place de l'environnement de développement
 
-**CODING DOJO - Chiffres Romains**
+    **Setup - Visual Studio 2017**
+    - Ouvrez le répertoire Dotnet/Start (ou Dotnet.Core/Start)
+    - Ouvrez la solution RomanNumeralConsole.sln
+    - Buildez la solution
+    - Ouvrez le fichier RomanNumeralConverterTest.cs  
+    - Lancez les tests
 
-Ce Koding Dojo a pour objectif d'être confronté par la pratique au TDD (Test Driven Development : développement pioté par les tests)
+    **Setup - IntelliJ**
+    - Ouvrez le répertoire Java/Start
+    - Dans l'onglet Maven, faites un ré-import du projet
+    - Sélectionnez la configuration Junit Test Roman Numerals
+    - Lancez la configuration Junit Test Roman Numerals
 
-Les spécifications sont décrites là :
-https://fr.wikipedia.org/wiki/Num%C3%A9ration_romaine
+<!--- 
+    **Setup - Visual Studio Code**
+    - Ouvrez le répertoire Dotnet/Start (ou Dotnet.Core/Start)
+    - Ouvrez la solution RomanNumeralConsole.sln
+    - Installez les plugins suivants :
+        - vscode-nuget-package-manager
+--->
+
+* Méthodologie proposée
 
 Il est proposé de suivre le plan de test dans l'ordre suivant :
 
